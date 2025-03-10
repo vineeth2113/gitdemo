@@ -1,0 +1,53 @@
+9  mkdir gitdemo
+   10  cd gitdemo/
+   11  git init
+   12  ls
+   13  ls -a 
+   14  git status 
+   15  touch one.txt
+   16  touch two.txt
+   17  touch three.txt
+   18  ls
+   19  git status
+   20  git add .
+   21  git status
+   22  git commit -m "reason for an update"
+   23  git status
+
+
+25  touch four.txt
+   26  touch five.txt
+   27  git ststud
+   28  git status
+   29  git add five.txt four.txt
+   30  git status
+   31  git commit -m "commit 2"
+   32  git remote add origin <repository link>
+   33  git push -u origin master 
+   34  history
+
+
+35  git log 
+   36  clear
+   37  git log 
+   38  git branch 
+   39  git branch subbranch 
+   40  git branch MyNewBranch
+   41  git branch
+   42  git checkout MyNewBranch
+   43  git branch
+   44  git ls-files
+   45  touch sub1.txt
+   46  touch sub2.txt
+   47  touch sub3.txt
+   48  git status
+   49  git add .
+   50  git commit -m "subbranch added"
+   51  git push -u origin MyNewBranch
+   52  git branch
+   53  git checkout master 
+   54  git branch
+   55  git merge MyNewBranch
+   56  git push -u origin master 
+   57  git branch -d MyNewBranch 
+   58  git push origin --delete MyNewBranch
